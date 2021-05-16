@@ -2,14 +2,39 @@
 <html>
 <head>
 <style>
-/* Creates the div for the logo,search bar, and buttons*/
+/* Creates css for the div for the logo,search bar, and buttons*/
 .googleLogoDiv{
     /*set border to red so that the div can be tracked for placement*/
-    border: 2px outset red;
+    border: none;
     background-color: white;
     text-align: center;
     }
 </style>
+<header>
+    <!--Header navigation bar-->
+    <ul>
+        <li><a href="about">About</a></li>
+        <li><a href="store">Store</a></li>
+        <li style="float:right"><button type="button">Sign in </button></li>
+        <li style="float:right"><a href="images">Images  </a></li>
+        <li style="float:right"><a href="gmail">Gmail   </a></li>
+    </ul>
+    <!--CSS sheet for the navigation bar in the header-->
+    <style>
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        li {
+            display: inline;
+        }
+        li a:hover {
+            background-color: white;
+            color: black;
+        }
+    </style>
+</header>
 </head>
 
 
@@ -27,5 +52,30 @@
     <button type="button">I'm Feeling Lucky</button>   
 </div>
 </body>
+<footer>
+    <!--Header navigation bar-->
+    <ul>
+        <li><a href="about">Advertising</a></li>
+        <li><a href="store">Business</a></li>
+        <li><a href="gmail">How Search Works</a></li>
+        <li style="float:right"><a href="images">Privacy</a></li>
+        
+    </ul>
+    <!--CSS sheet for the navigation bar in the header-->
+    <style>
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        li {
+            display: inline;
+        }
+        li a:hover {
+            background-color: white;
+            color: black;
+        }
+    </style>
+</footer>
 
 </html>
